@@ -1,0 +1,588 @@
+{
+  "business": {
+    "name": "Liberty Window and Glass, Inc",
+    "phone": "+14158226112",
+    "category": "window and door installer",
+    "city": "San Francisco",
+    "state": "CA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-heritage-craft",
+      "categoryGroup": "roofing",
+      "name": "Heritage Craft",
+      "recipeFile": "roofing/heritage-craft.astro",
+      "colors": {
+        "primary": "#3D2E1F",
+        "primaryDark": "#251A10",
+        "primaryLight": "#D4C5B0",
+        "secondary": "#5C4A3A",
+        "accent": "#6B5335",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5C4A3A",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "roofing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "San Francisco's Window & Door Experts",
+      "heroSubline": "Precision installation and lasting quality. Serving the Bay Area with integrity and skill.",
+      "aboutTitle": "Decades of Dedicated Service",
+      "aboutText": [
+        "Liberty Window and Glass, Inc. was founded on a simple principle: deliver exceptional window and door solutions with unwavering commitment to quality. For over a decade, we've been serving San Francisco and the surrounding communities, building a reputation for excellence one project at a time.",
+        "We believe in a hands-on approach, meticulously assessing each project's unique needs and tailoring our services accordingly. Our team is comprised of experienced professionals who take pride in their craft, ensuring every installation is performed to the highest standards. We prioritize clear communication, transparency, and exceeding expectations.",
+        "Beyond installations, we are deeply invested in the well-being of our community. We actively support local initiatives and strive to minimize our environmental impact through responsible disposal and energy-efficient product options. We are your neighbors, and we treat every project as if it were for our own homes."
+      ],
+      "valueProps": [
+        {
+          "title": "Expert Installation",
+          "description": "Precision and care in every project, ensuring lasting performance and beauty."
+        },
+        {
+          "title": "Wide Selection",
+          "description": "From classic styles to modern designs, we offer a diverse range of window and door options to suit any aesthetic."
+        },
+        {
+          "title": "Energy Efficiency",
+          "description": "Reduce your energy bills with our high-performance, energy-efficient windows and doors."
+        },
+        {
+          "title": "Local Expertise",
+          "description": "Deep understanding of San Francisco architecture and climate challenges."
+        }
+      ],
+      "ctaHeadline": "Upgrade Your Home Today",
+      "ctaSubline": "Request a free consultation and discover the difference quality windows and doors can make."
+    },
+    "services": [
+      {
+        "slug": "window-installation",
+        "name": "Window Installation",
+        "shortDescription": "Expert window installation services for San Francisco homes.",
+        "description": "Proper window installation is critical in San Francisco, where fog and fluctuating temperatures demand superior sealing and insulation. Our experienced team handles every aspect of the installation process, from precise measurements and careful removal of old windows to expert fitting and sealing of new ones. We work with a variety of window materials, including wood, vinyl, and aluminum, ensuring the perfect match for your home's style and your budget.\n\nWe understand the unique challenges posed by San Francisco's diverse architectural styles, from Victorian homes in the Haight to modern condos downtown. We are adept at navigating tight spaces, preserving historical details, and ensuring seamless integration with your existing structure. Our commitment to quality extends beyond the installation itself, as we provide thorough cleanup and disposal services, leaving your home clean and tidy.\n\nWe prioritize energy efficiency, offering a wide selection of Energy Star-rated windows that can significantly reduce your energy bills and improve your home's comfort. We also offer soundproofing options to mitigate noise pollution in bustling neighborhoods. With Liberty Window and Glass, Inc., you can trust that your window installation will be done right, the first time.",
+        "process": [
+          "Step 1: Consultation and Measurement",
+          "Step 2: Window Selection and Ordering",
+          "Step 3: Old Window Removal",
+          "Step 4: Precise Installation and Sealing"
+        ],
+        "benefits": [
+          "Improved Energy Efficiency",
+          "Enhanced Home Value",
+          "Increased Comfort",
+          "Reduced Noise Pollution"
+        ],
+        "faq": [
+          {
+            "question": "How long does window installation take?",
+            "answer": "The duration depends on the number of windows and complexity of the project, but most residential installations are completed within 1-3 days."
+          },
+          {
+            "question": "Do you offer window disposal services?",
+            "answer": "Yes, we provide complete disposal of old windows in an environmentally responsible manner."
+          },
+          {
+            "question": "What types of windows do you install?",
+            "answer": "We install a wide variety of window types, including double-hung, casement, bay, and picture windows, in various materials like wood, vinyl, and aluminum."
+          }
+        ]
+      },
+      {
+        "slug": "door-installation",
+        "name": "Door Installation",
+        "shortDescription": "Secure and stylish door installation for San Francisco properties.",
+        "description": "Your doors are the gateway to your home, providing security, style, and energy efficiency. Liberty Window and Glass, Inc. offers professional door installation services, ensuring a perfect fit and seamless operation. We handle all types of doors, including entry doors, patio doors, sliding doors, and interior doors.\n\nWe understand that San Francisco's climate can be harsh on doors, with salt air corrosion near the coast and intense sun exposure in the inland areas. We offer durable, weather-resistant door options that can withstand the elements and maintain their beauty for years to come. We also specialize in security doors, providing enhanced protection against intruders.\n\nOur team is skilled in installing doors in a variety of architectural styles, from classic Victorian homes to modern high-rises. We pay close attention to detail, ensuring proper alignment, smooth operation, and secure locking mechanisms. We also offer a range of finishes and hardware options to complement your home's design. With Liberty Window and Glass, Inc., you can rest assured that your door installation will be handled with expertise and care.",
+        "process": [
+          "Step 1: Consultation and Measurement",
+          "Step 2: Door Selection and Ordering",
+          "Step 3: Old Door Removal",
+          "Step 4: Precise Installation and Sealing"
+        ],
+        "benefits": [
+          "Enhanced Security",
+          "Improved Energy Efficiency",
+          "Increased Home Value",
+          "Enhanced Curb Appeal"
+        ],
+        "faq": [
+          {
+            "question": "What types of doors do you install?",
+            "answer": "We install entry doors, patio doors, sliding doors, interior doors, and security doors in a variety of materials, including wood, fiberglass, and steel."
+          },
+          {
+            "question": "Do you offer door repair services?",
+            "answer": "Yes, we offer door repair services for minor damages and adjustments."
+          },
+          {
+            "question": "How long does door installation take?",
+            "answer": "Most door installations can be completed within a day, depending on the complexity of the project."
+          }
+        ]
+      },
+      {
+        "slug": "window-replacement",
+        "name": "Window Replacement",
+        "shortDescription": "Replace outdated windows with energy-efficient models.",
+        "description": "Is it time to upgrade your old, drafty windows? Liberty Window and Glass, Inc. provides comprehensive window replacement services, helping you improve your home's energy efficiency, comfort, and value. We offer a wide selection of replacement windows in various styles and materials, ensuring the perfect fit for your needs and budget.\n\nSan Francisco homes often face unique challenges, such as excessive noise from street traffic or drafts from aging window frames. Our replacement windows are designed to address these issues, providing superior insulation, noise reduction, and weather protection. We carefully remove your old windows and install new ones with precision, ensuring a seamless fit and optimal performance.\n\nWe understand the importance of preserving the architectural integrity of your home. We offer historically accurate window replacements that match the original style and design. Our team is experienced in working with older homes and navigating the complexities of historic preservation guidelines. With Liberty Window and Glass, Inc., you can enhance your home's beauty and functionality while maintaining its unique character.",
+        "process": [
+          "Step 1: Home Assessment",
+          "Step 2: Window Selection",
+          "Step 3: Careful Removal of Old Windows",
+          "Step 4: Precise Installation and Sealing"
+        ],
+        "benefits": [
+          "Increased Home Value",
+          "Improved Energy Efficiency",
+          "Enhanced Comfort",
+          "Reduced Noise Pollution"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I need to replace my windows?",
+            "answer": "Signs include drafts, condensation between glass panes, difficulty opening and closing windows, and rising energy bills."
+          },
+          {
+            "question": "What are the benefits of energy-efficient windows?",
+            "answer": "Energy-efficient windows can significantly reduce your energy bills, improve your home's comfort, and reduce your carbon footprint."
+          },
+          {
+            "question": "Do you offer financing options?",
+            "answer": "Contact us to learn about available financing options."
+          }
+        ]
+      },
+      {
+        "slug": "door-repair",
+        "name": "Door Repair",
+        "shortDescription": "Fast and reliable door repair services in San Francisco.",
+        "description": "A damaged or malfunctioning door can compromise your home's security and convenience. Liberty Window and Glass, Inc. offers prompt and reliable door repair services, addressing a wide range of issues, from sticking doors and broken hinges to damaged frames and faulty locks. We understand the urgency of door repairs and strive to provide same-day or next-day service whenever possible.\n\nWe are experienced in repairing all types of doors, including entry doors, patio doors, sliding doors, and interior doors. We use high-quality replacement parts and employ proven repair techniques to ensure lasting results. Our team is equipped to handle even the most challenging door repairs, restoring your door to its original functionality and security.\n\nWhether you're dealing with a broken lock, a warped frame, or a sticking door, Liberty Window and Glass, Inc. is here to help. We provide transparent pricing and honest assessments, ensuring you understand the scope of the repair and the associated costs. With our expertise and commitment to customer satisfaction, you can trust that your door repair will be handled with professionalism and care.",
+        "process": [
+          "Step 1: Door Inspection",
+          "Step 2: Repair Assessment & Quote",
+          "Step 3: Component Sourcing",
+          "Step 4: Door Repair & Adjustment"
+        ],
+        "benefits": [
+          "Restored Security",
+          "Improved Functionality",
+          "Extended Door Lifespan",
+          "Cost-Effective Solution"
+        ],
+        "faq": [
+          {
+            "question": "How much does door repair cost?",
+            "answer": "The cost of door repair depends on the type and extent of the damage. We provide free estimates."
+          },
+          {
+            "question": "Do you offer emergency door repair services?",
+            "answer": "Yes, we offer emergency door repair services for urgent situations."
+          },
+          {
+            "question": "Can you repair sliding glass doors?",
+            "answer": "Yes, we specialize in sliding glass door repair, including roller replacement and track alignment."
+          }
+        ]
+      },
+      {
+        "slug": "custom-windows",
+        "name": "Custom Windows",
+        "shortDescription": "Unique windows crafted to your exact specifications.",
+        "description": "For homes with unique architectural features or specific design requirements, Liberty Window and Glass, Inc. offers custom window solutions. We work closely with you to create windows that perfectly match your vision, from size and shape to materials and finishes. Our custom windows are crafted with precision and attention to detail, ensuring exceptional quality and lasting beauty.\n\nWhether you're looking to replicate historical window designs or create a modern, one-of-a-kind statement, our team has the expertise to bring your ideas to life. We use high-quality materials and advanced manufacturing techniques to create custom windows that meet your exact specifications. Our custom windows are not only beautiful but also energy-efficient and durable, providing lasting value for your home.\n\nFrom initial design to final installation, we provide personalized service and expert guidance every step of the way. We understand that custom windows are a significant investment, and we are committed to ensuring your complete satisfaction. With Liberty Window and Glass, Inc., you can create windows that are as unique as your home.",
+        "process": [
+          "Step 1: Design Consultation",
+          "Step 2: Detailed Measurement & Specifications",
+          "Step 3: Fabrication",
+          "Step 4: Expert Installation"
+        ],
+        "benefits": [
+          "Unique Design",
+          "Perfect Fit",
+          "Enhanced Home Value",
+          "Personalized Service"
+        ],
+        "faq": [
+          {
+            "question": "What materials can I use for custom windows?",
+            "answer": "We offer a wide range of materials, including wood, vinyl, aluminum, and fiberglass."
+          },
+          {
+            "question": "How long does it take to fabricate custom windows?",
+            "answer": "The fabrication time depends on the complexity of the design and the materials used. We will provide an estimated timeline during the design consultation."
+          },
+          {
+            "question": "Can you match existing window styles?",
+            "answer": "Yes, we can replicate historical window designs and match existing window styles."
+          }
+        ]
+      },
+      {
+        "slug": "glass-repair",
+        "name": "Glass Repair",
+        "shortDescription": "Reliable glass repair services for windows and doors.",
+        "description": "Cracked or broken glass can compromise your home's security and energy efficiency. Liberty Window and Glass, Inc. offers prompt and reliable glass repair services, addressing a wide range of issues, from minor chips and cracks to shattered panes. We understand the urgency of glass repairs and strive to provide same-day or next-day service whenever possible.\n\nWe are experienced in repairing all types of glass, including window glass, door glass, and specialty glass. We use high-quality replacement glass and employ proven repair techniques to ensure lasting results. Our team is equipped to handle even the most challenging glass repairs, restoring your windows and doors to their original condition.\n\nWhether you're dealing with a broken window pane, a cracked sliding glass door, or a chipped mirror, Liberty Window and Glass, Inc. is here to help. We provide transparent pricing and honest assessments, ensuring you understand the scope of the repair and the associated costs. With our expertise and commitment to customer satisfaction, you can trust that your glass repair will be handled with professionalism and care.",
+        "process": [
+          "Step 1: Damage Assessment",
+          "Step 2: Glass Selection",
+          "Step 3: Careful Removal of Old Glass",
+          "Step 4: Precise Installation of New Glass"
+        ],
+        "benefits": [
+          "Restored Security",
+          "Improved Energy Efficiency",
+          "Extended Window/Door Lifespan",
+          "Cost-Effective Solution"
+        ],
+        "faq": [
+          {
+            "question": "Can you repair double-pane windows?",
+            "answer": "Yes, we can repair or replace double-pane windows."
+          },
+          {
+            "question": "Do you offer emergency glass repair services?",
+            "answer": "Yes, we offer emergency glass repair services for urgent situations."
+          },
+          {
+            "question": "How much does glass repair cost?",
+            "answer": "The cost of glass repair depends on the size and type of glass. We provide free estimates."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-windows",
+        "name": "Commercial Windows",
+        "shortDescription": "Durable and efficient window solutions for businesses.",
+        "description": "Liberty Window and Glass, Inc. provides commercial window installation, repair, and replacement services for businesses throughout San Francisco. We understand the unique needs of commercial properties, offering durable, energy-efficient, and aesthetically pleasing window solutions that enhance the appearance and functionality of your business.\n\nFrom storefront windows to office building windows, we have the expertise to handle all types of commercial window projects. We work with a variety of window materials, including aluminum, glass, and steel, offering a wide range of styles and designs to suit your specific needs and budget. Our team is experienced in navigating the complexities of commercial building codes and regulations, ensuring that your window project is completed safely and efficiently.\n\nWe prioritize minimizing disruption to your business operations, working quickly and efficiently to complete your window project on time and within budget. Our commitment to quality and customer satisfaction ensures that your commercial windows will provide lasting value for your business. With Liberty Window and Glass, Inc., you can enhance your business's curb appeal, energy efficiency, and security.",
+        "process": [
+          "Step 1: Consultation and Site Assessment",
+          "Step 2: Window Selection",
+          "Step 3: Permitting and Approvals",
+          "Step 4: Professional Installation"
+        ],
+        "benefits": [
+          "Enhanced Curb Appeal",
+          "Improved Energy Efficiency",
+          "Increased Security",
+          "Professional Installation"
+        ],
+        "faq": [
+          {
+            "question": "Do you offer window tinting services?",
+            "answer": "Yes, we offer window tinting services for commercial windows."
+          },
+          {
+            "question": "Can you install impact-resistant windows?",
+            "answer": "Yes, we can install impact-resistant windows for enhanced security."
+          },
+          {
+            "question": "Do you offer maintenance contracts for commercial windows?",
+            "answer": "Contact us to learn about our commercial window maintenance contracts."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "San Francisco",
+        "slug": "san-francisco-ca",
+        "state": "CA",
+        "content": "Liberty Window and Glass, Inc. is proud to offer our expert window and door installation services to the residents and businesses of San Francisco. We understand the unique architectural styles and weather conditions that characterize this vibrant city, from the iconic Victorians to the modern high-rises. Our team is committed to providing top-quality products and professional installation to enhance the beauty, energy efficiency, and security of your property.\n\nWhether you're looking to replace drafty windows in a historic home or upgrade the entrance to your commercial space, we have the perfect solution for your needs. We offer a wide selection of windows and doors in various styles, materials, and finishes to complement any aesthetic. With Liberty Window and Glass, Inc., you can trust that your window and door project will be handled with the utmost care and attention to detail.",
+        "localContext": "San Francisco is known for its diverse neighborhoods, steep hills, and stunning views of the Golden Gate Bridge. The city experiences a mild, Mediterranean climate with frequent fog, making energy-efficient windows and doors a valuable investment for comfort and cost savings.",
+        "nearbyAreas": [
+          "Oakland",
+          "Berkeley",
+          "Daly City"
+        ]
+      },
+      {
+        "city": "Oakland",
+        "slug": "oakland-ca",
+        "state": "CA",
+        "content": "Liberty Window and Glass, Inc. extends its premier window and door services to Oakland, CA, a city known for its rich cultural heritage and diverse architectural landscape. We understand the needs of Oakland homeowners and business owners, from the historic Victorian homes in Preservation Park to the modern developments along the waterfront. We are dedicated to providing top-quality products and expert installation services to enhance the beauty, value, and energy efficiency of your property.\n\nOur team of experienced professionals is equipped to handle any window and door project, big or small. We offer a wide range of styles and materials to suit your specific needs and preferences, and we are committed to delivering exceptional customer service every step of the way. Choose Liberty Window and Glass, Inc. for reliable and professional window and door solutions in Oakland.",
+        "localContext": "Oakland boasts a thriving arts scene, a diverse culinary landscape, and a growing economy. Its proximity to San Francisco and its more affordable housing options make it a popular choice for families and young professionals.",
+        "nearbyAreas": [
+          "Berkeley",
+          "Alameda",
+          "San Leandro"
+        ]
+      },
+      {
+        "city": "Berkeley",
+        "slug": "berkeley-ca",
+        "state": "CA",
+        "content": "Liberty Window and Glass, Inc. proudly serves the residents and businesses of Berkeley, CA, providing top-notch window and door solutions tailored to the city's unique character. From the historic homes near the UC Berkeley campus to the modern developments downtown, we understand the diverse architectural styles and needs of Berkeley. We are committed to delivering exceptional products and services that enhance the beauty, energy efficiency, and security of your property.\n\nWhether you're looking to replace old, drafty windows or install new doors to improve curb appeal, our team of experienced professionals is here to help. We offer a wide selection of windows and doors in various styles, materials, and finishes to complement any aesthetic. We are dedicated to providing reliable and affordable window and door services in Berkeley.",
+        "localContext": "Berkeley is a vibrant university town known for its intellectual atmosphere, progressive values, and stunning views of the San Francisco Bay. The city enjoys a mild climate, making energy-efficient windows and doors a smart investment for year-round comfort.",
+        "nearbyAreas": [
+          "Oakland",
+          "Albany",
+          "Emeryville"
+        ]
+      },
+      {
+        "city": "Daly City",
+        "slug": "daly-city-ca",
+        "state": "CA",
+        "content": "Liberty Window and Glass, Inc. is pleased to offer our professional window and door installation services to the Daly City community. We understand the unique challenges and opportunities presented by Daly City's climate and housing styles. Our team is committed to providing high-quality products and expert installation to improve the comfort, energy efficiency, and value of your home or business.\n\nFrom replacement windows that combat the coastal fog to stylish new doors that enhance your curb appeal, we have the solutions you need. We offer a wide selection of windows and doors in various materials and styles, ensuring that you find the perfect fit for your property. Choose Liberty Window and Glass, Inc. for reliable and affordable window and door services in Daly City.",
+        "localContext": "Daly City is a diverse and family-friendly community located just south of San Francisco. The city is known for its foggy weather and its proximity to the Pacific Ocean, making it an ideal location for energy-efficient windows and doors.",
+        "nearbyAreas": [
+          "San Francisco",
+          "South San Francisco",
+          "Pacifica"
+        ]
+      },
+      {
+        "city": "South San Francisco",
+        "slug": "south-san-francisco-ca",
+        "state": "CA",
+        "content": "Liberty Window and Glass, Inc. provides expert window and door solutions to the residents and businesses of South San Francisco. Known as the 'Industrial City', South San Francisco has a diverse range of properties, and we are dedicated to providing customized solutions for each one. Our team is committed to delivering superior products and professional installations that enhance the aesthetics, energy efficiency, and security of your property.\n\nWhether you're looking to upgrade the windows in your commercial building or replace the doors in your family home, we have the expertise and resources to get the job done right. We offer a wide selection of window and door styles and materials to suit any budget or aesthetic. Trust Liberty Window and Glass, Inc. for all your window and door needs in South San Francisco.",
+        "localContext": "South San Francisco is a thriving industrial and residential community located on the Peninsula. The city's proximity to San Francisco International Airport and its growing biotech industry make it a dynamic and desirable place to live and work.",
+        "nearbyAreas": [
+          "Daly City",
+          "San Bruno",
+          "Millbrae"
+        ]
+      },
+      {
+        "city": "San Bruno",
+        "slug": "san-bruno-ca",
+        "state": "CA",
+        "content": "Liberty Window and Glass, Inc. is proud to serve the San Bruno community with top-quality window and door installation and replacement services. We understand the unique needs of San Bruno residents and businesses, and are dedicated to providing solutions that enhance the beauty, energy efficiency, and security of your property. Our experienced team is committed to delivering exceptional customer service and expert craftsmanship.\n\nFrom updating the windows in your mid-century modern home to installing new doors in your commercial building, we have the products and expertise to meet your needs. We offer a wide selection of window and door styles, materials, and finishes, ensuring that you'll find the perfect fit for your style and budget. Choose Liberty Window and Glass, Inc. for reliable and professional window and door services in San Bruno.",
+        "localContext": "San Bruno is a vibrant city located in San Mateo County, known for its diverse community, convenient location near San Francisco International Airport, and beautiful parks and recreation areas.",
+        "nearbyAreas": [
+          "South San Francisco",
+          "Millbrae",
+          "Daly City"
+        ]
+      },
+      {
+        "city": "Millbrae",
+        "slug": "millbrae-ca",
+        "state": "CA",
+        "content": "Liberty Window and Glass, Inc. is delighted to offer our expert window and door services to the residents and businesses of Millbrae, CA. We recognize the diverse architectural styles in Millbrae and strive to deliver tailored solutions that complement each property. Our team is committed to providing superior products and professional installation services to enhance the beauty, energy efficiency, and security of your home or business.\n\nWhether you're looking to replace outdated windows in your ranch-style home or install new doors in your commercial space, we have the perfect solution for you. We offer a vast selection of window and door styles, materials, and finishes to suit any aesthetic and budget. With Liberty Window and Glass, Inc., you can trust that your window and door project will be handled with the utmost care and precision.",
+        "localContext": "Millbrae is a charming residential community located on the San Francisco Peninsula, known for its excellent schools, beautiful parks, and convenient access to transportation. The city boasts a mild climate and a welcoming atmosphere.",
+        "nearbyAreas": [
+          "San Bruno",
+          "Burlingame",
+          "San Mateo"
+        ]
+      },
+      {
+        "city": "Burlingame",
+        "slug": "burlingame-ca",
+        "state": "CA",
+        "content": "Liberty Window and Glass, Inc. is pleased to provide top-quality window and door solutions to homeowners and businesses in Burlingame, CA. We understand the unique architectural character of Burlingame, with its elegant homes and thriving commercial district. Our team is dedicated to offering products and services that enhance the beauty, energy efficiency, and value of your property.\n\nFrom classic window replacements to modern door installations, we have the expertise to handle any project. We offer a wide range of window and door styles and materials to suit your specific needs and preferences. Trust Liberty Window and Glass, Inc. to provide reliable and professional window and door services in Burlingame.",
+        "localContext": "Burlingame is a beautiful city located on the San Francisco Peninsula, known for its tree-lined streets, excellent schools, and vibrant downtown area. The city boasts a Mediterranean climate and a strong sense of community.",
+        "nearbyAreas": [
+          "Millbrae",
+          "San Mateo",
+          "Hillsborough"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria S.",
+        "rating": 5,
+        "service": "Window Replacement",
+        "text": "Liberty Window and Glass replaced all the windows in my Victorian home in the Mission District. They were incredibly careful with the historical details and the new windows look fantastic! Huge improvement in keeping the fog out. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Door Installation",
+        "text": "Had a new front door installed by Liberty. The installer was professional and efficient. There was a small scratch on the door after installation, but they quickly came back and fixed it. Good service!",
+        "date": "2025-02-20"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Glass Repair",
+        "text": "A rock hit my window and cracked it. Liberty Window and Glass came out the same day and replaced the glass. Quick, efficient, and reasonably priced.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Robert P.",
+        "rating": 5,
+        "service": "Window Installation",
+        "text": "We used Liberty Window and Glass to install new windows in our condo in North Beach. The team was very professional and the installation was flawless. Our heating bill has already decreased!",
+        "date": "2024-12-05"
+      },
+      {
+        "name": "Emily C.",
+        "rating": 4,
+        "service": "Door Repair",
+        "text": "Our sliding glass door was sticking and difficult to open. Liberty Window and Glass repaired it quickly and now it slides like new. Great service!",
+        "date": "2024-11-18"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Custom Windows",
+        "text": "We needed custom windows for our renovation project in Pacific Heights. Liberty Window and Glass created exactly what we wanted. The quality is outstanding!",
+        "date": "2024-10-27"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Liberty Window & Glass | San Francisco",
+        "description": "Expert window and door installation in San Francisco. Quality, reliability, and local expertise. Free consultations!"
+      },
+      "about": {
+        "title": "About Liberty Window & Glass",
+        "description": "Learn about Liberty Window & Glass: San Francisco's trusted window and door installation experts. Decades of quality service."
+      },
+      "services": {
+        "title": "Window & Door Services | San Francisco",
+        "description": "Window and door installation, repair, and replacement in San Francisco. Expert solutions for your home or business."
+      },
+      "contact": {
+        "title": "Contact Liberty Window & Glass",
+        "description": "Contact Liberty Window & Glass for a free consultation on window and door services in San Francisco. Get a quote today!"
+      },
+      "reviews": {
+        "title": "Customer Reviews | Liberty Window & Glass",
+        "description": "Read reviews from satisfied Liberty Window & Glass customers in San Francisco. See why we're the top choice for window and door services."
+      },
+      "service-areas": {
+        "title": "Service Areas | Liberty Window & Glass",
+        "description": "Liberty Window & Glass provides window and door services throughout the San Francisco Bay Area. Find out if we service your city!"
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "window-installation": "/images/service-window-installation.webp",
+      "door-installation": "/images/service-door-installation.webp",
+      "window-replacement": "/images/service-window-replacement.webp",
+      "door-repair": "/images/service-door-repair.webp",
+      "custom-windows": "/images/service-custom-windows.webp",
+      "glass-repair": "/images/service-glass-repair.webp",
+      "commercial-windows": "/images/service-commercial-windows.webp"
+    },
+    "servicesResponsive": {
+      "window-installation": {
+        "src": "/images/service-window-installation.webp",
+        "srcset": "/images/service-window-installation-400w.webp 400w, /images/service-window-installation-800w.webp 800w, /images/service-window-installation-1200w.webp 1200w, /images/service-window-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "door-installation": {
+        "src": "/images/service-door-installation.webp",
+        "srcset": "/images/service-door-installation-400w.webp 400w, /images/service-door-installation-800w.webp 800w, /images/service-door-installation-1200w.webp 1200w, /images/service-door-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "window-replacement": {
+        "src": "/images/service-window-replacement.webp",
+        "srcset": "/images/service-window-replacement-400w.webp 400w, /images/service-window-replacement-800w.webp 800w, /images/service-window-replacement-1200w.webp 1200w, /images/service-window-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "door-repair": {
+        "src": "/images/service-door-repair.webp",
+        "srcset": "/images/service-door-repair-400w.webp 400w, /images/service-door-repair-800w.webp 800w, /images/service-door-repair-1200w.webp 1200w, /images/service-door-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "custom-windows": {
+        "src": "/images/service-custom-windows.webp",
+        "srcset": "/images/service-custom-windows-400w.webp 400w, /images/service-custom-windows-800w.webp 800w, /images/service-custom-windows-1200w.webp 1200w, /images/service-custom-windows.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "glass-repair": {
+        "src": "/images/service-glass-repair.webp",
+        "srcset": "/images/service-glass-repair-400w.webp 400w, /images/service-glass-repair-800w.webp 800w, /images/service-glass-repair-1200w.webp 1200w, /images/service-glass-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-windows": {
+        "src": "/images/service-commercial-windows.webp",
+        "srcset": "/images/service-commercial-windows-400w.webp 400w, /images/service-commercial-windows-800w.webp 800w, /images/service-commercial-windows-1200w.webp 1200w, /images/service-commercial-windows.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
